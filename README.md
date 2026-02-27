@@ -4,6 +4,24 @@ The XunkO Python package implements the **Anakizer** BPE tokenizer. This impleme
 
 > **Anakizer** is a mix of the galician word *anaco*, which means part, and *tokenizer*.
 
+## Installation process
+
+To install the package simply write in your terminal:
+
+```text
+python -m pip install git+https://github.com/EBoquete02/XunkO.git
+```
+
+and you are done! Simply add:
+
+```python
+from xunko import Anakizer
+```
+
+to start using the tokenizer! Have fun!
+
+## Introduction to Byte Pair Encoding (BPE) tokenization
+
 Tokenization is the first step in any Deep Learning (DL) model that works with text data, such as the Large Language Models (LLMs) that took the world by storm. The whole tokenization problem aims to answer the question:
 
 **How can we represent text data numerically, the only thing that a DL model truly understands, in an efficient way?**
@@ -12,7 +30,7 @@ At first we might think that we can simply assign each character with a number a
 
 We might then think to assign a number to each word but, in all honesty, this is incredibly tedious work and would break if the user makes a spelling mistake or uses a word from a different language.
 
-This is why Byte Pair Encoding (BPE) was invented, it is a middle ground between these two approaches: it isn't character level, so tokenized text is not as long, but it is also universal and saves us from going over all possible words by hand. It works by assigning unique numbers not to characters nor words, but to text chunks called **tokens** that the tokenizer learns by itself.
+This is why BPE tokenization was invented, it is a middle ground between these two approaches: it isn't character level, so tokenized text is not as long, but it is also universal and saves us from going over all possible words by hand. It works by assigning unique numbers not to characters nor words, but to text chunks called **tokens** that the tokenizer learns by itself.
 
 ## How does the tokenizer learn?
 You heard it right, the algorithm itself chooses what text pieces are worth numbering without any input from the user apart from a training text. This is not magic, however, it is just the result of the following training loop:
