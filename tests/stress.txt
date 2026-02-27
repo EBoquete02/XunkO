@@ -1,0 +1,59 @@
+--- START OF ULTIMATE STRESS TEST ---
+Lucas se puso su gorra favorita y gritó: "<|B	OS|> ¡Es hora de la función!". 
+Había esperado meses para la excursión al Gran Teatro Unicode. Al entrar, 
+el recepcionista, que parecía un robot antiguo, le entregó un ticket que decía: 
+"Asiento: <|SPECIAL_TOKEN|> (Fila: <|SPECIAL)". 
+
+Lucas se rascó la cabeza. "¿Mi asiento está dentro del nombre de otro asiento?", 
+se preguntó. Caminó por el pasillo principal donde las luces parpadeaban de forma 
+extraña, haciendo un ruido parecido a un carácter de control: [] [	] [].
+
+En el escenario, el mago 'Byte' empezó su truco final. "¡Contemplad!", exclamó. 
+"Voy a convertir este salto de línea real:
+(aquí hubo un \n real)
+...en una simple cadena de texto literal que dice \\n!". 
+
+El público aplaudió, pero un espectador gritó desde el fondo: 
+"¡Eso no es nada! ¡Yo puedo escribir una barra invertida sola \\ y no romper el sistema!". 
+Lucas anotó todo en su libreta:
+- El misterio de la tabulación vertical:  (¡Cuidado con este separador!)
+- El secreto de los tokens anidados: <|SPECIAL_TOKEN|> vs <|SPECIAL_EXTRA|>
+- El caos de las barras: \\v, \\t, \\\n y el gran final \\\\
+
+De repente, el telón cayó con un estruendo: [EOS]. 
+Lucas salió del teatro pensando que la realidad era una secuencia de caracteres 
+perfectamente escapada. "Fue una excursión de <|SPECIAL", murmuró mientras 
+el autobús arrancaba con un último sonido de tabulador:	.
+
+Al salir del teatro, Lucas encontró un puesto de helados atendido por un anciano llamado <|SPECIAL. 
+"¿Quieres un helado sabor a bytes?", preguntó el hombre mientras su cartel brillaba: 
+[OFERTA: <|SPECIAL_TOKEN|> + 🍦 = 🚀].
+
+Lucas miró el menú y vio precios imposibles: 
+- Chocolate: 5\v euros
+- Vainilla: 3\t euros
+- Caramelo Escapado: 10\\v\\t euros 🤖
+
+"Oiga", dijo Lucas, "su cartel tiene una barra invertida sola \\, eso podría romper mi libreta".
+El heladero se rió: "¡No te preocupes, niño! Aquí usamos el sistema de escape perfecto. 
+Mira, si escribo \n no aparece un helado nuevo, solo ves la letra ene precedida de una barra. 
+¡Pero si pulso ENTER...
+(aquí el heladero pulsó el carácter \n real)
+...entonces sí que hay un salto en la realidad!". 🔥
+
+De pronto, un perro llamado <|UNK|> pasó corriendo. Lucas notó que el nombre del perro 
+tenía un tabulador vertical invisible justo en el medio. "¡Qué nombre tan malicioso!", pensó.
+Sacó su tablet y empezó a escribir código de alto nivel:
+String locura = "<|SPECIAL_TOKEN|><|SPECIAL|><|SPECIAL_TOKEN|>";
+System.out.println("¿Puede mi tokenizer leer esto?"); 
+
+El cielo se puso de color púrpura y apareció un mensaje flotante: [EOS].
+Parecía que el mundo estaba llegando al límite de su ventana de contexto. 
+Lucas vio una señal de tráfico que decía: 
+"Cuidado: Zona de Triple Escape \\\\t. No pasar sin \v o podrías quedar atrapado 
+en un bucle de tokens anidados para siempre". 
+
+Lucas suspiró y se subió al bus. Al cerrar la puerta, el sensor hizo un ruido 
+seco de control: 		. 
+"Mañana iré al zoológico", murmuró, "espero que los animales no sean tokens especiales".
+[END_OF_SEQUENCE]

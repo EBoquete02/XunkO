@@ -1,0 +1,10 @@
+### ide ###
+.vscode/
+.DS_Store
+
+### packaging ###
+dist/
+*.egg-info/
+
+### tests ###
+tests/*_save.txt
