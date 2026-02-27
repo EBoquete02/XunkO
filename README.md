@@ -18,7 +18,7 @@ and you are done! Simply add:
 from xunko import Anakizer
 ```
 
-to start using the tokenizer! Have fun!
+in your Python code to start using the tokenizer! Have fun!
 
 ## Introduction to Byte Pair Encoding (BPE) tokenization
 
